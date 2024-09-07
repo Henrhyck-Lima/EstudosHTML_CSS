@@ -21,3 +21,43 @@
 
     --font-principal: 'Ido'
 }
+body {
+    align-items: center;
+    justify-content:center ;
+}
+main{
+    max-width: 500px;
+    margin: auto;
+}
+.quem-sou {
+    /* width: 500px;
+    height: 600px; */
+    background-color:rgba(128, 128, 128, 0.26);
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+}
+.perfil {
+    margin: auto;
+    border-radius: 100px;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+article > p {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+aside {
+    padding-top: 10px;
+    background-color:rgba(128, 128, 128, 0.26);
+    border: 2px solid blue;
+    width: 500px;
+    height: 500px;
+}
