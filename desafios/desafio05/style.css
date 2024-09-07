@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Ido';
+    src: url(../desafio10/fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+:root {
+    --cor01:#000000;
+    --cor02: #e53939;
+    --cor03: #ffffff;
+
+    --font-principal: 'Ido'
+}
