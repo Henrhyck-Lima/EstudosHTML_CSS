@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="style.css">
     
+    
     <title>Página social.</title>
     
     
@@ -20,8 +21,8 @@
         
     </header>
     <main>
-        <article class="quem-sou">
-            <img class="perfil" src="imagens/400.jpg" alt="">
+        <article id="quem-sou">
+            <img class="perfil" src="imagens/400.jpg" alt="" >
     
             <p>Eu me chamo <strong>Henrhyck Lima</strong>, formado em Analise e Desenvolvimentos de sistemas, carioca 25 anos, Rubro Negro apaixonado dividindo metade do meu coração com o Celtics.<br>
                 Apaixonado por tecnologia desde criança e buscando uma vaga na área de programação.
@@ -76,5 +77,26 @@
             Site Desencolvido Por <strong>Henrhyck Lima.</strong>
         </p>
     </footer>
+    <script>
+        // let nome = window.prompt('Qual é seu nome?')
+        // alert(`É um grande prazer te ter aqui ${nome}, Seja bem vindo!`)
+
+        let a = document.getElementById('quem-sou')
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+        function entrar() {
+            a.style.backgroundColor = '#CBCACA'
+            a.style.width = '600px'
+            a.style.height = '600px'
+        }
+
+        function sair() {
+            a.style.backgroundColor = '#ffffff'
+            a.style.width = '500px'
+            a.style.height = '500px'
+        }
+    </script>
+
 </body>
 </html>

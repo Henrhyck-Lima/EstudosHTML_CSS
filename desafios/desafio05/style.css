@@ -54,7 +54,7 @@ main{
     /* justify-content: center;
     align-items: center; */
 }
-.quem-sou {
+#quem-sou {
     width: 500px;
     height: 500px;
     background-color:var(--cor03);
